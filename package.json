@@ -1,0 +1,40 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "Webpack-starter project",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js --progress"
+  },
+  "browserslist": [
+    "ie >= 10",
+    "last 50 version"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-1": "^6.24.1",
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "node-sass": "^7.0.1",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "postcss-loader": "^6.2.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vue-loader": "^17.0.0",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
