@@ -7,6 +7,9 @@
     "dev": "webpack-dev-server --config webpack.config.dev.js",
     "build": "webpack --config webpack.config.prod.js --progress"
   },
+  "engines": {
+    "node": "14.15.4"
+  },
   "browserslist": [
     "ie >= 10",
     "last 50 version"
